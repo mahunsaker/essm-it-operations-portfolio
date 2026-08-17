@@ -1,5 +1,7 @@
 # ESSM IT Operations Portfolio
 
+<img width="1536" height="1024" alt="ChatGPT Image Aug 17, 2026, 08_04_28 AM" src="https://github.com/user-attachments/assets/03317cf4-0e59-4cd9-b230-27688db53881" />
+
 This repository is a professional IT operations portfolio built to demonstrate hands-on experience with systems administration, infrastructure troubleshooting, Linux, Windows Server, networking, Docker, automation, documentation, and homelab operations.
 
 ## Purpose
