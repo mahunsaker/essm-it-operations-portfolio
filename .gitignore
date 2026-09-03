@@ -1,0 +1,21 @@
+# Credentials and private keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+.env
+.env.*
+credentials*
+secrets*
+
+# Private inventory and local configuration
+*.local
+inventory-private*
+config-private*
+
+# Logs and temporary files
+*.log
+*.tmp
+*~
