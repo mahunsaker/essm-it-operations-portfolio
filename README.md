@@ -80,7 +80,11 @@ Configured Ubuntu under Windows Subsystem for Linux as a centralized administrat
 
 ## Architecture and Documentation
 
-- [Infrastructure diagram](diagrams/essm-infrastructure.md)
+- [Current infrastructure overview](docs/essm-homelab-overview.md)
+- [Sanitized infrastructure diagram](diagrams/essm-infrastructure.md)
+- [Operational playbooks](playbooks/README.md)
+- [Windows administration](windows-admin/README.md)
+- [Docker application operations](docker/README.md)
 - [Administration scripts overview](scripts/README.md)
 - [Troubleshooting case studies](troubleshooting/README.md)
 
@@ -88,16 +92,13 @@ Configured Ubuntu under Windows Subsystem for Linux as a centralized administrat
 
 | Directory | Contents |
 |---|---|
-| `docs` | Environment overviews and supporting documentation |
-| `diagrams` | Sanitized infrastructure and network diagrams |
-| `scripts` | Bash and PowerShell administration scripts |
-| `playbooks` | Repeatable operational procedures |
-| `troubleshooting` | Technical problems, investigations, and resolutions |
-| `windows-admin` | Windows Server and workstation administration |
-| `linux-admin` | Linux administration procedures |
-| `networking` | DNS, TCP/IP, service ports, and connectivity |
-| `docker` | Docker deployments and application operations |
-| `resume-projects` | Project summaries for interviews and resumes |
+| [`docs`](docs/essm-homelab-overview.md) | Current environment overview and supporting documentation |
+| [`diagrams`](diagrams/essm-infrastructure.md) | Sanitized infrastructure diagrams |
+| [`playbooks`](playbooks/README.md) | Repeatable operational procedures |
+| [`windows-admin`](windows-admin/README.md) | Windows Server and workstation administration |
+| [`docker`](docker/README.md) | Docker deployments and application operations |
+| [`scripts`](scripts/README.md) | Administration and monitoring tool documentation |
+| [`troubleshooting`](troubleshooting/README.md) | Technical problems, investigations, and resolutions |
 
 ## Troubleshooting Methodology
 
