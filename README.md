@@ -80,7 +80,8 @@ Configured Ubuntu under Windows Subsystem for Linux as a centralized administrat
 
 ## Architecture and Documentation
 
-- [Current infrastructure overview](docs/essm-homelab-overview.md)
+- [ESSMHomeLab operations and readiness overview](docs/essm-homelab-overview.md)
+- [Download the portfolio PDF](docs/essm-homelab-operations-overview.pdf)
 - [Sanitized infrastructure diagram](diagrams/essm-infrastructure.md)
 - [Operational playbooks](playbooks/README.md)
 - [Windows administration](windows-admin/README.md)
