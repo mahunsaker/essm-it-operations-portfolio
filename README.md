@@ -49,6 +49,7 @@ Exact addresses, credentials, and sensitive configuration details are intentiona
 | `essmhelp` | Displays ESSM commands and SSH targets |
 | `essmstatus` | Tests whether core systems respond over the network |
 | `essmhealth` | Collects platform, uptime, health, and reboot information |
+| `essmhealthstatus` | Combines availability and detailed health into one report |
 | `essmports` | Tests essential application and infrastructure ports |
 | `essmupdate` | Supports standardized maintenance operations |
 
@@ -78,10 +79,15 @@ Deployed and managed infrastructure and business applications using Docker and D
 
 Configured Ubuntu under Windows Subsystem for Linux as a centralized administration console using systemd, SSH keys, host aliases, Bash tools, and PowerShell integration.
 
+### Cockpit Browser-Based Administration
+
+Designed a selective, Ansible-managed Cockpit rollout for Linux servers, including pilot validation, access restrictions, TLS planning, monitoring integration, and rollback procedures.
+
 ## Architecture and Documentation
 
 - [ESSMHomeLab operations and readiness overview](docs/essm-homelab-overview.md)
 - [Download the portfolio PDF](docs/essm-homelab-operations-overview.pdf)
+- [Cockpit implementation guide](docs/cockpit-implementation-guide.md)
 - [Sanitized infrastructure diagram](diagrams/essm-infrastructure.md)
 - [Operational playbooks](playbooks/README.md)
 - [Windows administration](windows-admin/README.md)
