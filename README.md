@@ -57,7 +57,12 @@ The tools use SSH, PowerShell, Bash, ping, and TCP port checks to gather informa
 
 ## Automated Infrastructure Health Reporting
 
-The custom `essmhealth` command connects to authorized Windows, Linux, and Proxmox systems and produces a consolidated report containing hostname, role, platform version, uptime, connectivity state, and pending-reboot status.
+The custom `essmhealthstatus` workflow connects to authorized Windows, Linux, and Proxmox systems and produces a consolidated report containing platform version, uptime, connectivity state, and pending-reboot status.
+
+A production wrapper now runs the report automatically every day through Windows Task Scheduler and Ubuntu WSL. It preserves a timestamped local copy, identifies attention conditions, sends a professional HTML email, logs delivery, retries transient failures, and runs missed tasks when the workstation becomes available.
+
+- [Automated health reporting case study](docs/automated-health-reporting.md)
+- [Sanitized daily email wrapper](scripts/essm-daily-email.sh)
 
 ![ESSM infrastructure health report](https://github.com/user-attachments/assets/a50439a9-abc7-4f44-9c46-f816712e6d8c)
 
@@ -77,7 +82,7 @@ Deployed and managed infrastructure and business applications using Docker and D
 
 ### WSL Administration Workstation
 
-Configured Ubuntu under Windows Subsystem for Linux as a centralized administration console using systemd, SSH keys, host aliases, Bash tools, and PowerShell integration.
+Configured Ubuntu under Windows Subsystem for Linux as a centralized administration console using systemd, SSH keys, host aliases, Bash tools, PowerShell integration, and scheduled cross-platform health reporting.
 
 ### Cockpit Browser-Based Administration
 
@@ -87,6 +92,7 @@ Designed a selective, Ansible-managed Cockpit rollout for Linux servers, includi
 
 - [ESSMHomeLab operations and readiness overview](docs/essm-homelab-overview.md)
 - [Download the portfolio PDF](docs/essm-homelab-operations-overview.pdf)
+- [Automated health reporting case study](docs/automated-health-reporting.md)
 - [Cockpit implementation guide](docs/cockpit-implementation-guide.md)
 - [Sanitized infrastructure diagram](diagrams/essm-infrastructure.md)
 - [Operational playbooks](playbooks/README.md)
@@ -121,7 +127,7 @@ Designed a selective, Ansible-managed Cockpit rollout for Linux servers, includi
 
 ## Security and Privacy
 
-This repository contains sanitized examples only. Passwords, authentication tokens, private keys, personal information, exact network details, and sensitive configuration values are not committed to GitHub.
+This repository contains sanitized examples only. Passwords, authentication tokens, private keys, personal information, exact network details, live reports, and sensitive configuration values are not committed to GitHub.
 
 ## Professional Relevance
 
