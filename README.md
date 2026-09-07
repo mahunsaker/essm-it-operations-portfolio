@@ -93,6 +93,7 @@ Designed a selective, Ansible-managed Cockpit rollout for Linux servers, includi
 - [ESSMHomeLab operations and readiness overview](docs/essm-homelab-overview.md)
 - [Download the portfolio PDF](docs/essm-homelab-operations-overview.pdf)
 - [Automated health reporting case study](docs/automated-health-reporting.md)
+- [Layered infrastructure automation program](docs/layered-infrastructure-automation.md)
 - [Cockpit implementation guide](docs/cockpit-implementation-guide.md)
 - [Sanitized infrastructure diagram](diagrams/essm-infrastructure.md)
 - [Operational playbooks](playbooks/README.md)
