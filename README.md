@@ -2,7 +2,7 @@
 
 <img width="1536" height="1024" alt="ESSM IT operations workspace" src="https://github.com/user-attachments/assets/03317cf4-0e59-4cd9-b230-27688db53881" />
 
-This repository documents the design, administration, automation, and troubleshooting of **ESSMHomeLab.Local**, a working multi-platform homelab built to demonstrate practical IT support, systems administration, networking, virtualization, and IT operations skills.
+This repository documents the design, administration, automation, and troubleshooting of **ESSMHomeLab.Local**, a working multi-platform homelab built to demonstrate practical IT support, systems administration, networking, virtualization, automation, and IT operations skills.
 
 ## Portfolio Objectives
 
@@ -11,6 +11,7 @@ This repository documents the design, administration, automation, and troublesho
 - Administer Active Directory and internal DNS
 - Deploy and maintain Docker-based applications
 - Automate system-health and service checks
+- Build repeatable information-processing and reporting workflows
 - Document troubleshooting methodology and resolutions
 - Develop repeatable IT procedures and operational playbooks
 
@@ -59,7 +60,7 @@ The tools use SSH, PowerShell, Bash, ping, and TCP port checks to gather informa
 
 The custom `essmhealthstatus` workflow connects to authorized Windows, Linux, and Proxmox systems and produces a consolidated report containing platform version, uptime, connectivity state, and pending-reboot status.
 
-A production wrapper now runs the report automatically every day through Windows Task Scheduler and Ubuntu WSL. It preserves a timestamped local copy, identifies attention conditions, sends a professional HTML email, logs delivery, retries transient failures, and runs missed tasks when the workstation becomes available.
+A production wrapper runs the report automatically through Windows Task Scheduler and Ubuntu WSL. It preserves timestamped reports, identifies attention conditions, sends formatted email, logs delivery, retries transient failures, and runs missed tasks when the workstation becomes available.
 
 - [Automated health reporting case study](docs/automated-health-reporting.md)
 - [Sanitized daily email wrapper](scripts/essm-daily-email.sh)
@@ -67,6 +68,14 @@ A production wrapper now runs the report automatically every day through Windows
 ![ESSM infrastructure health report](https://github.com/user-attachments/assets/a50439a9-abc7-4f44-9c46-f816712e6d8c)
 
 ## Featured Projects
+
+### Automated Job Search & Application Tracker
+
+Designed an automated multi-source job-discovery and application-tracking workflow that evaluates IT opportunities against relevant technical skills, separates remote from on-site/hybrid roles, detects duplicate listings, preserves application state, and generates an Excel application pipeline with dashboard reporting and direct application links.
+
+The implementation demonstrates scheduled workflow automation, data normalization, classification, deduplication, state preservation, spreadsheet generation, output validation, and privacy-aware documentation.
+
+- [Job search and application tracker case study](docs/job-search-application-tracker.md)
 
 ### Windows Server Active Directory and DNS
 
@@ -93,6 +102,7 @@ Designed a selective, Ansible-managed Cockpit rollout for Linux servers, includi
 - [ESSMHomeLab operations and readiness overview](docs/essm-homelab-overview.md)
 - [Download the portfolio PDF](docs/essm-homelab-operations-overview.pdf)
 - [Automated health reporting case study](docs/automated-health-reporting.md)
+- [Automated job search and application tracker](docs/job-search-application-tracker.md)
 - [Layered infrastructure automation program](docs/layered-infrastructure-automation.md)
 - [Cockpit implementation guide](docs/cockpit-implementation-guide.md)
 - [Sanitized infrastructure diagram](diagrams/essm-infrastructure.md)
@@ -106,7 +116,7 @@ Designed a selective, Ansible-managed Cockpit rollout for Linux servers, includi
 
 | Directory | Contents |
 |---|---|
-| [`docs`](docs/essm-homelab-overview.md) | Current environment overview and supporting documentation |
+| [`docs`](docs/essm-homelab-overview.md) | Current environment overview, automation case studies, and supporting documentation |
 | [`diagrams`](diagrams/essm-infrastructure.md) | Sanitized infrastructure diagrams |
 | [`playbooks`](playbooks/README.md) | Repeatable operational procedures |
 | [`windows-admin`](windows-admin/README.md) | Windows Server and workstation administration |
@@ -128,11 +138,11 @@ Designed a selective, Ansible-managed Cockpit rollout for Linux servers, includi
 
 ## Security and Privacy
 
-This repository contains sanitized examples only. Passwords, authentication tokens, private keys, personal information, exact network details, live reports, and sensitive configuration values are not committed to GitHub.
+This repository contains sanitized examples only. Passwords, authentication tokens, private keys, personal information, exact network details, live reports, private application history, and sensitive configuration values are not committed to GitHub.
 
 ## Professional Relevance
 
-This work demonstrates experience applicable to IT support, desktop support, service desk, systems administration, application support, network support, and IT operations roles.
+This work demonstrates experience applicable to IT support, desktop support, service desk, systems administration, application support, network support, IT operations, infrastructure automation, and workflow automation roles.
 
 ## About the Author
 
