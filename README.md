@@ -4,6 +4,14 @@
 
 This repository documents the design, administration, automation, and troubleshooting of **ESSMHomeLab.Local**, a working multi-platform homelab built to demonstrate practical IT support, systems administration, networking, virtualization, automation, and IT operations skills.
 
+## AI-Assisted IT Operations Workflow
+
+I use ChatGPT as an AI assistant within a disciplined technical workflow: **Define → Assess → Plan → Validate → Execute → Verify → Troubleshoot → Automate → Document → Version → Monitor → Improve**.
+
+Human judgment remains authoritative. AI assists with research, analysis, planning, scripting, troubleshooting, automation, and documentation while I remain responsible for understanding the environment, evaluating risk, approving changes, and validating results.
+
+- [AI-Assisted IT Operations Workflow](docs/ai-assisted-it-workflow.md)
+
 ## Portfolio Objectives
 
 - Demonstrate practical Windows and Linux administration
@@ -99,6 +107,7 @@ Designed a selective, Ansible-managed Cockpit rollout for Linux servers, includi
 
 ## Architecture and Documentation
 
+- [AI-Assisted IT Operations Workflow](docs/ai-assisted-it-workflow.md)
 - [ESSMHomeLab operations and readiness overview](docs/essm-homelab-overview.md)
 - [Download the portfolio PDF](docs/essm-homelab-operations-overview.pdf)
 - [Automated health reporting case study](docs/automated-health-reporting.md)
@@ -142,8 +151,8 @@ This repository contains sanitized examples only. Passwords, authentication toke
 
 ## Professional Relevance
 
-This work demonstrates experience applicable to IT support, desktop support, service desk, systems administration, application support, network support, IT operations, infrastructure automation, and workflow automation roles.
+This work demonstrates experience applicable to IT support, desktop support, service desk, systems administration, application support, network support, IT operations, infrastructure automation, workflow automation, and practical AI-assisted technical operations.
 
 ## About the Author
 
-Mark Hunsaker is an IT professional with more than 33 years of experience supporting users, hardware, software, systems, and networks. This portfolio demonstrates continued professional development through practical infrastructure projects, automation, troubleshooting, and documentation.
+Mark Hunsaker is an IT professional with more than 33 years of experience supporting users, hardware, software, systems, and networks. This portfolio demonstrates continued professional development through practical infrastructure projects, automation, troubleshooting, documentation, and responsible use of AI-assisted technical workflows.
