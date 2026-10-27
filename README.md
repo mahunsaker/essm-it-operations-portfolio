@@ -77,6 +77,12 @@ A production wrapper runs the report automatically through Windows Task Schedule
 
 ## Featured Projects
 
+### Portable System Administrator Dashboard (generic reference prototype)
+
+Developing an independently authored, read-only Windows Forms and PowerShell 7 dashboard with modular command registration, explicit local/remote CIM targeting, double-click AdminHelp commands, offline installation, validation, and rollback guidance. The reference implementation contains no employer-specific information and is not yet validated on Windows.
+
+- [Dashboard architecture, prototype source, and offline runbook](windows-admin/sysadmin-dashboard/README.md)
+
 ### Automated Job Search & Application Tracker
 
 Designed an automated multi-source job-discovery and application-tracking workflow that evaluates IT opportunities against relevant technical skills, separates remote from on-site/hybrid roles, detects duplicate listings, preserves application state, and generates an Excel application pipeline with dashboard reporting and direct application links.
