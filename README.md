@@ -11,6 +11,7 @@ I use ChatGPT as an AI assistant within a disciplined technical workflow: **Defi
 Human judgment remains authoritative. AI assists with research, analysis, planning, scripting, troubleshooting, automation, and documentation while I remain responsible for understanding the environment, evaluating risk, approving changes, and validating results.
 
 - [AI-Assisted IT Operations Workflow](docs/ai-assisted-it-workflow.md)
+- [PowerShell Beyond the Script: Building Modular Administration Tools That Last](docs/powershell-beyond-the-script.md) — independently authored architecture article with generic diagrams
 
 ## Portfolio Objectives
 
